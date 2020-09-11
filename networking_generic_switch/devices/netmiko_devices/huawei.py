@@ -33,5 +33,5 @@ class Huawei(netmiko_devices.NetmikoSwitch):
 
     DELETE_PORT = (
         'interface {port}',
-        'undo port default vlan {segmentation_id}',
+        'undo port default vlan',
     )
